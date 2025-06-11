@@ -1,0 +1,126 @@
+*{
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        min-height: 100px;
+        max-width: 100%;
+        background-color: pink;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    header {
+        min-height: 100vh;
+        max-width: 100%;
+        background-color: aqua;
+        display:flex;
+        flex-direction:column;
+        gap:150px;
+    }
+
+    .logo img {
+        height: 200px;
+        width: 200px;
+        margin:10px;
+    }
+    ul{
+        display:flex;
+    }
+    li{
+        list-style: none;
+    }
+    li a{
+        color:white;
+        background:#000;
+        padding:10px 20px;
+        margin:10px;
+        border:1.5px solid blueviolet;
+        border-left: 4px double deepskyblue;
+        font-weight:600;
+        font-variant:small-caps;
+        letter-spacing: 1.5px;
+        transition:.5s
+    }
+    ul li a:hover{
+        background:lightskyblue;
+        border-radius:20px;
+    }
+    h1{
+        color:#000;
+        text-align:center;
+        font-size: 80px;
+    }
+    span{
+        color:rgb(245, 27, 64);
+        font-size:100px;
+        font-weight:200;
+        font-variant:small-caps;
+        letter-spacing:1.5px;
+    }
+    .menu-section {
+        background-color: #f0f8ff;
+        padding: 40px 20px;
+        text-align: center;
+      }
+      
+      .menu-section h2 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 30px;
+      }
+      
+      .menu-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+      
+      .menu-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        width: 250px;
+        padding: 15px;
+        transition: transform 0.3s ease;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+      }
+      
+      .menu-card:hover {
+        transform: scale(1.05);
+      }
+      .menu-card img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .menu-card h3 {
+        font-size: 1.2rem;
+        color: #111;
+        margin: 10px 0 5px;
+      }
+      
+      .price {
+        font-weight: bold;
+        color: #1d4ed8;
+        margin-bottom: 10px;
+      }
+      
+      .menu-card button {
+        background-color: #1d4ed8;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .menu-card button:hover {
+        background-color: #2563eb;
+      }      
